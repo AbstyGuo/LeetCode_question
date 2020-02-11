@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA311A8523F300D300CD1808 /* Nums.c in Sources */ = {isa = PBXBuildFile; fileRef = CA311A8423F300D300CD1808 /* Nums.c */; settings = {COMPILER_FLAGS = "-objc-mrc"; }; };
 		CA94986323EDAE4700E5A280 /* MergeList.c in Sources */ = {isa = PBXBuildFile; fileRef = CA94986223EDAE4700E5A280 /* MergeList.c */; };
 		CAA5061023EB0F670013C97D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA5060F23EB0F670013C97D /* main.m */; };
 		CAA5061823EB0FA50013C97D /* PublicClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA5061723EB0FA50013C97D /* PublicClass.m */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CA311A8323F300D300CD1808 /* Nums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nums.h; sourceTree = "<group>"; };
+		CA311A8423F300D300CD1808 /* Nums.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Nums.c; sourceTree = "<group>"; };
 		CA94986123EDAE4700E5A280 /* MergeList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeList.h; sourceTree = "<group>"; };
 		CA94986223EDAE4700E5A280 /* MergeList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeList.c; sourceTree = "<group>"; };
 		CAA5060C23EB0F670013C97D /* LeetCodeQuestion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeQuestion; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +76,8 @@
 				CAA5061A23EC69EA0013C97D /* ArrayQuestion.c */,
 				CA94986123EDAE4700E5A280 /* MergeList.h */,
 				CA94986223EDAE4700E5A280 /* MergeList.c */,
+				CA311A8323F300D300CD1808 /* Nums.h */,
+				CA311A8423F300D300CD1808 /* Nums.c */,
 			);
 			path = LeetCodeQuestion;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA311A8523F300D300CD1808 /* Nums.c in Sources */,
 				CA94986323EDAE4700E5A280 /* MergeList.c in Sources */,
 				CAA5061023EB0F670013C97D /* main.m in Sources */,
 				CAA5061823EB0FA50013C97D /* PublicClass.m in Sources */,
