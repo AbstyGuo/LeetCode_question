@@ -102,4 +102,25 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
         //更新总数
         m++;
     }
+    
+}
+
+
+int* plusOne(int* digits, int digitsSize, int* returnSize){
+    
+    for(int i = digitsSize-1;i>=0;i--){
+        if(digits[i] < 9){
+            digits[i]++;
+            *returnSize = digitsSize;
+            return digits;
+        }
+        digits[i] = 0;
+    }
+    
+    *returnSize = digitsSize+1;
+    unsigned long size = (digitsSize+1) * sizeof(int);
+    int * temp = (int*)malloc(size);
+    memset(temp,'\0',(digitsSize+1)*sizeof(int));
+    temp[0] = 1;
+    return temp;
 }
